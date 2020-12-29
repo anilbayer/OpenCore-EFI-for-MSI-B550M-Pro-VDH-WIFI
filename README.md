@@ -1,6 +1,6 @@
-<img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48"/>
-
 # OpenCore EFI for MSI B550M-Pro VDH WIFI
+
+<img src="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Logos/OpenCore_with_text_Small.png" width="200" height="48"/>
 
 # Specification
 
