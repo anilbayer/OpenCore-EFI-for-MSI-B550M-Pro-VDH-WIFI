@@ -27,7 +27,7 @@
 - 3.5mm Jack microphone (haven't tested)
 
 ## Important
-- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID. For further info please visit: https://github.com/corpnewt/GenSMBIOS
+- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist. For further info please visit: https://github.com/corpnewt/GenSMBIOS
 - It was hard to make Ethernet work. I had to go to info.plist file inside kexy and change "OSBundleRequired" to Root. The value should be System-Root by default. It did not work with default value. So, I changed it to Root. Now works perfect. 
 
 ## Credits
