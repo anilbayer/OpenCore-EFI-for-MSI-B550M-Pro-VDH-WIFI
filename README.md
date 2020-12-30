@@ -16,7 +16,12 @@
 | WiFi & Bluetooth | Intel® Dual Band Wireless-AC 3168 |
 | Lan |  Realtek® 8111HN Gigabit LAN controller |
 | OS Disk | Patriot 480GB SSD |
-| macOS | Big Sur 11.1/ OpenCore 0.6.4 Alpha
+
+**macOS version**: 11.1 (19H2)  
+
+**OpenCore version**: 0.6.4  
+
+**SMBIOS**:  iMacPro1,1
 
 ## What works
 - Audio (`alcid=28`)
@@ -33,8 +38,12 @@
 
 
 ## Important
-- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist. For further info please visit: https://github.com/corpnewt/GenSMBIOS
 - It was hard to make Ethernet work. I had to go to info.plist file inside kexy and change "OSBundleRequired" to Root. The value should be System-Root by default. It did not work with default value. So, I changed it to Root. Now works perfect. 
+- Please fill out PlatformInfo -> Generic -> MLB, SystemSerialNumber and SystemUUID on config.plist. 
+
+How to: 
+- Download [**GenSMBIOS**](https://github.com/corpnewt/GenSMBIOS) to generate unique SMBIOS information. Run it and select **Generate SMBIOS**, as model select **iMacPro1,1**.
+- Open config.plist with [**ProperTree**](https://github.com/corpnewt/ProperTree) and go to PlatformInfo > Generic. Set MLB (Board Serial), SystemSerialNumber (Serial) and SystemUUID (SmUUID) to generated values.
 
 ## Credits
 - Thanx to Hackintosh & Dortania Teams for all information
