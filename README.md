@@ -33,8 +33,8 @@
 - Input works fine with Logitech G430 Genuine USB Adaptor.
 
 ## Known issues
-- Airdrop and Airplay
-- 3.5mm Jack microphone.
+- Airdrop and Airplay.
+- 3.5mm Jack microphone. (Tested no joy)
 
 
 ## Important
